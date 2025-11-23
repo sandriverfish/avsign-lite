@@ -1,9 +1,9 @@
 # avSign.lite
 
-**AI-enhanced digital signage platform for offline-first content management**
+**AI-enhanced digital signage software for offline-first content management**
 
 > ⚠️ **Phase 0 Beta**: This is a pre-release version with compiled binaries only.
-> Source code will be released as open-source (AGPLv3) in Phase 1 (Q1 2025).
+> Source code will be released as open-source (AGPLv3) in Phase 1 (Q4 2025).
 
 [![License](https://img.shields.io/badge/License-Beta-blue.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Android%20%7C%20Linux-lightgrey.svg)]()
@@ -22,6 +22,7 @@
 | 🪟 **Windows** | [Download EXE](https://github.com/sandriverfish/avsign-lite/releases/download/v1.0.0-beta/avsign-lite-v1.0.0-beta-windows.exe) | ~120 MB | Windows 10+ |
 | 🤖 **Android** | [Download APK](https://github.com/sandriverfish/avsign-lite/releases/download/v1.0.0-beta/avsign-lite-v1.0.0-beta.apk) | ~85 MB | Android 5.0+ |
 | 🐧 **Linux** | [Download TAR.GZ](https://github.com/sandriverfish/avsign-lite/releases/download/v1.0.0-beta/avsign-lite-v1.0.0-beta-linux.tar.gz) | ~130 MB | Ubuntu 20.04+ |
+**Linux will be available soon.**
 
 ### Installation
 
@@ -72,7 +73,7 @@ See our [Installation Guide](docs/Installation_Guide.md) for detailed platform-s
   <tr>
     <td width="50%">
       <img src="screenshots/display-mode.png" alt="Display Mode" />
-      <p align="center"><em>Full-Screen Display Mode</em></p>
+      <p align="center"><em>Client Dashboard Display</em></p>
     </td>
     <td width="50%">
       <img src="screenshots/settings.png" alt="Settings" />
@@ -113,7 +114,7 @@ We're currently in **Phase 0 Beta** and actively seeking feedback from users!
 - 🐛 **Bug Reports**: [GitHub Issues](https://github.com/sandriverfish/avsign-lite/issues)
 - 💡 **Feature Requests**: [GitHub Issues](https://github.com/sandriverfish/avsign-lite/issues)
 - 💬 **Discussions**: [GitHub Discussions](https://github.com/sandriverfish/avsign-lite/discussions)
-- 💬 **Discord**: @avsign.lite
+- 💬 **Discord**: [@avsign.lite](https://discord.gg/EMh8zanC)
 - 🐦 **Twitter/X**: [@sandriverfish](https://twitter.com/sandriverfish)
 - 📧 **Email**: sandriverfish@gmail.com
 
@@ -139,7 +140,7 @@ We're currently in **Phase 0 Beta** and actively seeking feedback from users!
 - ✅ Template library
 - ✅ Public beta program
 
-### ⏳ Phase 1: Open Source Launch (Q1 2025)
+### ⏳ Phase 1: Open Source Launch (Q4 2025)
 
 **Status**: Planned
 
@@ -149,13 +150,13 @@ We're currently in **Phase 0 Beta** and actively seeking feedback from users!
 - Enhanced documentation with architecture diagrams
 - Public GitHub repository with full history
 
-### ⏳ Phase 2: Advanced Features (Q2 2025)
+### ⏳ Phase 2: Advanced Features (Q1 2026)
 
 **Status**: In development
 
+- MCP server for AI agent control
 - AI-powered content generation (Claude Skills)
 - Cloud synchronization and backup
-- MCP server for AI agent control
 - Advanced scheduling system
 - Multi-device management dashboard
 - Analytics and reporting
@@ -258,9 +259,9 @@ See [LICENSE](LICENSE) for complete beta license terms.
 
 ### General Inquiries
 
-- **Website**: https://avsign.com *(coming soon)*
+- **Website**: *(coming soon)*
 - **Email**: sandriverfish@gmail.com
-- **Discord**: @avsign.lite
+- **Discord**: [@avsign.lite](https://discord.gg/EMh8zanC)
 - **Twitter/X**: [@sandriverfish](https://twitter.com/sandriverfish)
 
 ---
@@ -270,7 +271,7 @@ See [LICENSE](LICENSE) for complete beta license terms.
 **Current Version**: v1.0.0-beta
 **Phase**: 0 (Beta Testing)
 **Status**: Active Development
-**Next Milestone**: Phase 1 Open Source Launch (Q1 2025)
+**Next Milestone**: Phase 1 Open Source Launch (Q4 2025)
 
 ### Quick Stats
 
