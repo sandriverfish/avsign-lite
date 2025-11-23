@@ -1,0 +1,163 @@
+# Changelog
+
+All notable changes to avSign.lite will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [Unreleased]
+
+### Planned for Phase 1 (Q1 2025)
+- Open source code release under AGPLv3
+- Developer documentation and contribution guidelines
+- Community contribution process
+- Enhanced architecture documentation
+
+### Planned for Phase 2 (Q2 2025)
+- AI-powered content generation (Claude Skills)
+- Cloud synchronization and backup
+- MCP server for AI agent control
+- Advanced scheduling system
+- Multi-device management dashboard
+
+---
+
+## [1.0.0-beta] - 2025-11-23
+
+### Phase 0 Beta Release
+
+First public beta release with compiled binaries for Windows, Android, and Linux.
+
+#### Added
+
+**Core Features:**
+- Resource management system for uploading and organizing media files
+- Visual drag-and-drop layout editor
+- Template library with 5+ pre-built layouts (full screen, PIP, side-by-side, quad dashboard, video wall)
+- Custom template creation and saving
+- Program/playlist creation with multi-zone content support
+- Device/terminal management
+- Content publishing workflow
+- Offline-first architecture with local HTTP server
+
+**Supported Media Types:**
+- Image support: JPG, PNG, GIF, BMP, WebP
+- Video support: MP4, AVI, MKV, MOV, WebM
+- Text widgets: Static text, scrolling text, clock displays
+- Layout zones: Multi-zone layouts with independent content per zone
+
+**User Interface:**
+- Admin web interface accessible on port 8080
+- Responsive design for desktop and tablet displays
+- Settings management
+- User authentication system
+
+**Platform Support:**
+- Windows 10/11 (64-bit)
+- Android 5.0+ (API level 21+)
+- Linux (Ubuntu 20.04+, or equivalent with GTK 3.0+)
+
+#### Known Issues
+
+**Installation:**
+- Windows 11 may require administrator rights for installation
+- Some antivirus software may flag the installer (false positive)
+- Linux: GTK dependencies must be installed manually on some distributions
+
+**Performance:**
+- Large video files (>500 MB) may take time to load on first display
+- Layout editor may experience lag on older Android devices (< 2GB RAM)
+- 4K video playback may require hardware decoding support
+
+**Compatibility:**
+- Web browser access to admin UI works best with Chrome/Edge
+- Firefox may have minor CSS rendering differences
+- Safari on iOS is not officially supported for admin UI
+
+**UI/UX:**
+- Upload progress indicator may not update smoothly for very large files
+- Drag-and-drop zone resizing has minimum size constraints
+- Some error messages are technical and need clarification
+
+#### Platform-Specific Notes
+
+**Windows:**
+- Requires DirectX 11 compatible graphics card
+- Installation directory: `C:\Program Files\avSign.lite\`
+- Default data directory: `%APPDATA%\avSign.lite\`
+
+**Android:**
+- Requires storage permissions for media file access
+- Recommended for tablets with 7" or larger screens
+- Some older devices may have video codec limitations
+
+**Linux:**
+- Tested on Ubuntu 20.04 and 22.04
+- May require additional codecs for some video formats
+- Desktop file integration included for application launcher
+
+#### Security
+
+- Default admin credentials should be changed on first run
+- Admin interface accessible only on localhost by default
+- No data transmitted to external servers (fully offline)
+- Media files stored locally on device
+
+#### Dependencies
+
+**Built With:**
+- Flutter 3.24.3
+- Drift ORM for database
+- Media Kit for video playback
+- Shelf HTTP server for admin interface
+
+---
+
+## Version History Summary
+
+| Version | Release Date | Type | Highlights |
+|---------|--------------|------|------------|
+| 1.0.0-beta | 2025-11-23 | Beta | Initial public beta with core features |
+| Phase 1 | Q1 2025 | Stable | Open source release |
+| Phase 2 | Q2 2025 | Feature | AI and cloud features |
+
+---
+
+## Upgrade Notes
+
+### From Pre-Beta to v1.0.0-beta
+
+This is the first public release. No upgrade path from previous versions.
+
+### Future: From v1.0.0-beta to Phase 1
+
+When Phase 1 launches:
+- No data migration required
+- Existing installations will continue working
+- New AGPLv3 license will apply
+- Optional update to Phase 1 binaries recommended
+
+---
+
+## Feedback and Bug Reports
+
+Found a bug or have feedback? We'd love to hear from you:
+
+- 🐛 [Report a bug](https://github.com/sandriverfish/avsign-lite/issues/new?template=bug_report.yml)
+- 💡 [Request a feature](https://github.com/sandriverfish/avsign-lite/issues/new?template=feature_request.yml)
+- 📧 Email: sandriverfish@gmail.com
+
+---
+
+## Legend
+
+- `Added` - New features
+- `Changed` - Changes in existing functionality
+- `Deprecated` - Soon-to-be removed features
+- `Removed` - Removed features
+- `Fixed` - Bug fixes
+- `Security` - Security fixes and improvements
+
+---
+
+Last updated: 2025-11-23

@@ -1,0 +1,17 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 General Discussion
+    url: https://github.com/sandriverfish/avsign-lite/discussions
+    about: Ask questions, share ideas, or discuss avSign.lite with the community
+
+  - name: 📧 Email Support
+    url: mailto:sandriverfish@gmail.com
+    about: Contact the development team directly for support or private inquiries
+
+  - name: 📖 Documentation
+    url: https://github.com/sandriverfish/avsign-lite/blob/main/docs/User_Guide.md
+    about: Read the user guide and documentation before reporting issues
+
+  - name: 🔐 Security Issue
+    url: mailto:sandriverfish@gmail.com
+    about: Report security vulnerabilities privately (do not use public issues)

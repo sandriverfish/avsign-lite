@@ -1,0 +1,129 @@
+name: Bug Report
+description: Report a bug or issue with avSign.lite
+title: "[BUG]: "
+labels: ["bug", "triage"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this bug! Please provide as much detail as possible to help us resolve the issue quickly.
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      description: Which platform are you using?
+      options:
+        - Windows
+        - Android
+        - Linux
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Which version of avSign.lite are you using?
+      placeholder: "v1.0.0-beta"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      description: How severe is this bug?
+      options:
+        - Critical (app crashes, data loss)
+        - High (feature completely broken)
+        - Medium (feature partially broken)
+        - Low (minor issue, cosmetic)
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      description: What happened? Be as specific as possible.
+      placeholder: "When I try to upload a video file, the app crashes with..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: How can we reproduce this bug?
+      placeholder: |
+        1. Go to 'Resource Management'
+        2. Click on 'Upload'
+        3. Select a video file larger than 100MB
+        4. Click 'Upload'
+        5. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What did you expect to happen?
+      placeholder: "The video should upload successfully and appear in the resource list."
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behavior
+      description: What actually happened?
+      placeholder: "The app shows an error message and crashes."
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or Error Messages
+      description: Add screenshots, error messages, or log files if available. Drag and drop images here.
+      placeholder: "Paste screenshots or error messages here..."
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: System Information
+      description: Additional system details that might be relevant
+      placeholder: |
+        - OS Version: Windows 11 22H2
+        - RAM: 8GB
+        - Display Resolution: 1920x1080
+        - GPU: Intel UHD Graphics 620
+      value: |
+        - OS Version:
+        - RAM:
+        - Display Resolution:
+        - GPU:
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Any other information that might help us fix this bug
+      placeholder: "This only happens when uploading files over 100MB. Works fine with smaller files."
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Pre-submission Checklist
+      description: Please confirm the following
+      options:
+        - label: I have searched existing issues to make sure this isn't a duplicate
+          required: true
+        - label: I have provided all the required information above
+          required: true
+        - label: I am using the latest beta version
+          required: false

@@ -1,0 +1,97 @@
+# avSign.lite Phase 0 Repository .gitignore
+
+# ============================================================================
+# This gitignore is for the Phase 0 PUBLIC repository with binaries only
+# NO SOURCE CODE should be tracked in this repository
+# ============================================================================
+
+# Operating System Files
+# ----------------------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Temporary Files
+# ----------------------------------------------------------------------------
+*.tmp
+*.temp
+*.bak
+*.backup
+*.swp
+*.swo
+*~
+.#*
+
+# Editor and IDE Files
+# ----------------------------------------------------------------------------
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# Build Artifacts (Keep binaries OUT of git - use GitHub Releases)
+# ----------------------------------------------------------------------------
+*.exe
+*.apk
+*.aab
+*.ipa
+*.tar.gz
+*.zip
+*.7z
+*.rar
+*.dmg
+*.deb
+*.rpm
+*.AppImage
+
+# Documentation Build Files
+# ----------------------------------------------------------------------------
+docs/_build/
+docs/.doctrees/
+*.pdf.tmp
+
+# Logs and Crash Reports
+# ----------------------------------------------------------------------------
+*.log
+crash_reports/
+logs/
+
+# macOS
+# ----------------------------------------------------------------------------
+.AppleDouble
+.LSOverride
+Icon?
+
+# Linux
+# ----------------------------------------------------------------------------
+.directory
+.Trash-*
+.nfs*
+
+# Windows
+# ----------------------------------------------------------------------------
+Thumbs.db:encryptable
+ehthumbs_vista.db
+
+# Backup files
+# ----------------------------------------------------------------------------
+*.orig
+*.rej
+
+# ============================================================================
+# IMPORTANT: Keep repository lean - docs and assets only!
+# Source code will be added in Phase 1
+# ============================================================================

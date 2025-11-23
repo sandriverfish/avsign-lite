@@ -1,0 +1,109 @@
+========================================
+SOCIAL MEDIA ACCOUNTS - UPDATED
+========================================
+
+Date: 2025-11-23
+
+All documentation has been updated with actual social media accounts:
+
+Discord: @avsign.lite
+Twitter/X: @sandriverfish (https://twitter.com/sandriverfish)
+
+========================================
+FILES UPDATED
+========================================
+
+✓ README.md
+  - Community section (line 210-211)
+  - Feedback Channels (line 116-117)
+  - General Inquiries (line 263-264)
+
+✓ LAUNCH_CHECKLIST.md
+  - Twitter announcement template (line 377-393)
+  - Includes Discord mention in tweet
+
+✓ SOCIAL_MEDIA.md (NEW)
+  - Complete social media strategy guide
+  - Launch announcement templates
+  - Twitter thread (4 tweets ready to post)
+  - Reddit post templates (r/digitalsignage, r/selfhosted)
+  - Discord server setup guide
+  - Content calendar (first month)
+  - Community guidelines
+
+========================================
+READY-TO-USE CONTENT
+========================================
+
+TWITTER LAUNCH THREAD (4 tweets)
+---------------------------------
+See: SOCIAL_MEDIA.md
+
+Tweet 1: Main announcement
+Tweet 2: Key features
+Tweet 3: Call for beta testers
+Tweet 4: Technical details
+
+All ready to copy/paste!
+
+REDDIT POSTS
+---------------------------------
+See: SOCIAL_MEDIA.md
+
+- r/digitalsignage template (ready)
+- r/selfhosted template (ready)
+
+DISCORD SERVER
+---------------------------------
+See: SOCIAL_MEDIA.md
+
+- Recommended channels structure
+- Welcome message template
+- Server setup guide
+
+========================================
+NEXT STEPS
+========================================
+
+1. Set up Discord server:
+   - Create server
+   - Add recommended channels
+   - Post welcome message
+   - Get invite link
+
+2. Update docs with Discord invite:
+   - README.md (replace @avsign.lite with invite)
+   - SOCIAL_MEDIA.md (add invite link)
+
+3. After GitHub launch:
+   - Post Twitter thread
+   - Submit Reddit posts
+   - Share Discord invite
+
+========================================
+INVITE LINK NEEDED
+========================================
+
+Once you create Discord invite link, update:
+
+README.md:
+- Line 210: Change "@avsign.lite" to actual invite link
+
+SOCIAL_MEDIA.md:
+- Add invite link in Discord section
+
+Template:
+- **Discord**: [Join our server](https://discord.gg/YOUR_INVITE)
+
+========================================
+ALL SOCIAL ACCOUNTS ACTIVE
+========================================
+
+✓ GitHub: sandriverfish/avsign-lite
+✓ Discord: @avsign.lite
+✓ Twitter: @sandriverfish
+✓ Email: sandriverfish@gmail.com
+
+Ready for Phase 0 launch! 🚀
+
+========================================
