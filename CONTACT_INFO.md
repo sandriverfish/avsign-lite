@@ -29,9 +29,9 @@ Use for:
 - Discussions: https://github.com/sandriverfish/avsign-lite/discussions
 
 **Discord**
-- Username: @avsign.lite
+- Server: avSign.lite Community
 - Purpose: Real-time community chat and support
-- Invite: (Add invite link when server is ready)
+- Invite: https://discord.gg/EMh8zanC
 
 **Twitter/X**
 - Handle: @sandriverfish

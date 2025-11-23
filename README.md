@@ -210,7 +210,7 @@ avSign.lite is perfect for:
 Join our growing community of digital signage users!
 
 - **GitHub Discussions**: [Ask questions, share ideas](https://github.com/sandriverfish/avsign-lite/discussions)
-- **Discord**: Join our server - @avsign.lite
+- **Discord**: [Join our server](https://discord.gg/EMh8zanC)
 - **Twitter/X**: [@sandriverfish](https://twitter.com/sandriverfish)
 - **Email**: sandriverfish@gmail.com
 

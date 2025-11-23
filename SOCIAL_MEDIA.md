@@ -13,9 +13,9 @@
 - **Releases**: https://github.com/sandriverfish/avsign-lite/releases
 
 ### Discord
-- **Username**: @avsign.lite
+- **Server**: avSign.lite Community
 - **Purpose**: Real-time community chat, support, and discussions
-- **Invite**: (Create and add invite link here)
+- **Invite**: https://discord.gg/EMh8zanC
 
 ### Twitter/X
 - **Handle**: [@sandriverfish](https://twitter.com/sandriverfish)
