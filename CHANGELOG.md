@@ -21,6 +21,29 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Multi-device management dashboard
 
 ---
+## [1.0.1] - 2025-11-24
+
+### Added
+- **Port Configuration**: Configure HTTP server and MCP server ports in Settings
+  - Settings → Server Settings → Port Configuration
+  - Automatic conflict detection (e.g., SuperSign on port 8080)
+  - Auto-allocation to alternative ports (8081, 8082, etc.)
+  - Persists across app restarts
+  - Environment variable support (`SERVER_PORT`, `MCP_PORT`)
+- Port validation with recommended ranges (Admin UI: 8080-8180, MCP: 3333-3433)
+- Port diagnostics helper for availability testing
+
+### Fixed
+- **Android Icon**: Fixed black border around app icon on Android 10+
+  - Changed adaptive icon background from dark gray to white
+  - Proper adaptive icon configuration for all Android versions 8.0+
+
+### Changed
+- Version bump: 1.0.0+1 → 1.0.1+2
+- Updated `flutter_launcher_icons` configuration for consistent icon generation
+
+---
+
 
 ## [1.0.0-beta] - 2025-11-23
 

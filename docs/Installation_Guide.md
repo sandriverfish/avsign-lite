@@ -365,6 +365,15 @@ sudo kill -9 <PID>
 **Linux: GTK theme issues**
 - Install GTK 3.0 theme package
 - Set GTK_THEME environment variable
+ 
+**Linux: Media playback dependencies (GStreamer)**
+To ensure media playback works correctly on Linux, install the GStreamer runtime and common plugins:
+
+```bash
+sudo apt-get update
+sudo apt-get install -y gstreamer1.0-plugins-base gstreamer1.0-plugins-good \
+   gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly gstreamer1.0-libav
+```
 
 ---
 
@@ -411,6 +420,18 @@ After successful installation:
 1. **Read the** [Quick Start Guide](Quick_Start.md) to get started quickly
 2. **Review the** [User Guide](User_Guide.md) for detailed usage
 3. **Check** [FAQ](FAQ.md) for common questions
+
+## Running AppImage or Snap
+AppImage is a single-file portable package that runs without installation:
+```
+chmod +x avsign-lite-1.0.0.AppImage
+./avsign-lite-1.0.0.AppImage
+```
+
+Snap packages can be installed on Snap-enabled systems:
+```
+sudo snap install avsign-lite_1.0.0_amd64.snap --dangerous
+```
 
 ---
 
