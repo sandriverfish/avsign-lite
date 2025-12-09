@@ -15,13 +15,13 @@
 
 ### Download Latest Release
 
-**Version: v1.0.0-beta** | [All Releases](https://github.com/sandriverfish/avsign-lite/releases)
+**Version: v1.0.2 (Phase 0)** | [All Releases](https://github.com/sandriverfish/avsign-lite/releases)
 
 | Platform | Download | Size | Requirements |
 |----------|----------|------|--------------|
-| 🪟 **Windows** | [Download EXE](https://github.com/sandriverfish/avsign-lite/releases/download/v1.0.0-beta/avsign-lite-v1.0.0-beta-windows.exe) | ~120 MB | Windows 10+ |
-| 🤖 **Android** | [Download APK](https://github.com/sandriverfish/avsign-lite/releases/download/v1.0.0-beta/avsign-lite-v1.0.0-beta.apk) | ~85 MB | Android 5.0+ |
-| 🐧 **Linux** | [Download TAR.GZ](https://github.com/sandriverfish/avsign-lite/releases/download/v1.0.0-beta/avsign-lite-v1.0.0-beta-linux.tar.gz) | ~130 MB | Ubuntu 20.04+ |
+| 🪟 **Windows** | [Download ZIP](https://github.com/sandriverfish/avsign-lite/releases/download/v1.0.2/avsign-lite-1.0.2-windows-android.zip) | ~102 MB | Windows 10+ |
+| 🤖 **Android** | [Download APK](https://github.com/sandriverfish/avsign-lite/releases/download/v1.0.2/avsign-lite-1.0.2-android.apk) | ~162 MB | Android 9+ |
+| 🐧 **Linux** | _Coming Soon_ | - | Ubuntu 20.04+ |
 **Linux will be available soon.**
 
 ### Installation
@@ -175,11 +175,11 @@ We're currently in **Phase 0 Beta** and actively seeking feedback from users!
 
 ### Android
 
-- **OS**: Android 5.0 (Lollipop) or later
+- **OS**: Android 9.0 (Pie) or later (recommended)
 - **RAM**: 2 GB minimum, 4 GB recommended
 - **Disk Space**: 200 MB
 - **Display**: Tablet or phone with 720p+ resolution
-- **Permissions**: Storage access for media files
+- **Permissions**: No runtime external storage permission required (uses scoped app storage by default)
 
 ### Linux
 
@@ -268,7 +268,7 @@ See [LICENSE](LICENSE) for complete beta license terms.
 
 ## 📊 Project Status
 
-**Current Version**: v1.0.0-beta
+**Current Version**: v1.0.2 (Phase 0)
 **Phase**: 0 (Beta Testing)
 **Status**: Active Development
 **Next Milestone**: Phase 1 Open Source Launch (Q4 2025)
