@@ -15,14 +15,14 @@
 
 ### Download Latest Release
 
-**Version: v1.0.2 (Phase 0)** | [All Releases](https://github.com/sandriverfish/avsign-lite/releases)
+**Version: v1.0.5 (Phase 0)** | [All Releases](https://github.com/sandriverfish/avsign-lite/releases)
 
 | Platform | Download | Size | Requirements |
 |----------|----------|------|--------------|
-| 🪟 **Windows** | [Download ZIP](https://github.com/sandriverfish/avsign-lite/releases/download/v1.0.2/avsign-lite-1.0.2-windows-android.zip) | ~102 MB | Windows 10+ |
-| 🤖 **Android** | [Download APK](https://github.com/sandriverfish/avsign-lite/releases/download/v1.0.2/avsign-lite-1.0.2-android.apk) | ~162 MB | Android 9+ |
+| 🪟 **Windows** | [Download Installer](https://github.com/sandriverfish/avsign-lite/releases/download/v1.0.5/avsign-lite-1.0.5-windows.exe) | ~101 MB | Windows 10+ |
+| 🤖 **Android** | [Download APK](https://github.com/sandriverfish/avsign-lite/releases/download/v1.0.5/avsign-lite-1.0.5-android.apk) | ~94 MB | Android 9+ |
+| 📺 **Fire TV** | [Download APK](https://github.com/sandriverfish/avsign-lite/releases/download/v1.0.5/avsign-lite-1.0.5-firetv.apk) | ~94 MB | Fire TV Stick 4K+ |
 | 🐧 **Linux** | _Coming Soon_ | - | Ubuntu 20.04+ |
-**Linux will be available soon.**
 
 ### Installation
 
@@ -130,36 +130,35 @@ We're currently in **Phase 0 Beta** and actively seeking feedback from users!
 
 ## 🗺️ Roadmap
 
-### ✅ Phase 0: Beta Testing (Current - Nov 2025)
+### ✅ Phase 0: Beta Testing (Current - Dec 2025)
 
 **Status**: Public beta with compiled binaries
 
 - ✅ Core digital signage features
-- ✅ Multi-platform support (Windows, Android, Linux)
+- ✅ Multi-platform support (Windows, Android, Fire TV)
 - ✅ Resource and layout management
-- ✅ Template library
+- ✅ Template library with Digital Menu Board support
+- ✅ Fire TV optimized UI
 - ✅ Public beta program
 
-### ⏳ Phase 1: Open Source Launch (Q4 2025)
+### ⏳ Phase 1: Open Source Launch (Q1 2026)
 
 **Status**: Planned
 
-- Full source code release under AGPLv3
-- Developer documentation and contribution guidelines
-- Community contributions enabled
-- Enhanced documentation with architecture diagrams
-- Public GitHub repository with full history
+- avSign.lite Swarm Mode
+- Support Raspberry Pi
+- Support more Android devices (already supports Firefly)
+- MCP server for AI agent control, scheduling, playlist editing
+- Calendar events display
 
-### ⏳ Phase 2: Advanced Features (Q1 2026)
+### ⏳ Phase 2: Advanced Features (Q2 2026)
 
 **Status**: In development
 
-- MCP server for AI agent control
-- AI-powered content generation (Claude Skills)
 - Cloud synchronization and backup
+- Support avSign.server (for Cloudflare, QNAP NAS)
 - Advanced scheduling system
 - Multi-device management dashboard
-- Analytics and reporting
 
 ---
 
@@ -181,6 +180,14 @@ We're currently in **Phase 0 Beta** and actively seeking feedback from users!
 - **Display**: Tablet or phone with 720p+ resolution
 - **Permissions**: No runtime external storage permission required (uses scoped app storage by default)
 
+### Fire TV
+
+- **OS**: Fire OS 7.0+ (Fire TV Stick 4K or newer recommended)
+- **RAM**: 2 GB minimum
+- **Disk Space**: 200 MB
+- **Display**: 1080p or 4K TV
+- **Features**: D-pad navigation, Amazon IAP support, TV-optimized UI
+
 ### Linux
 
 - **OS**: Ubuntu 20.04 or later (or equivalent distribution)
@@ -196,12 +203,13 @@ We're currently in **Phase 0 Beta** and actively seeking feedback from users!
 avSign.lite is perfect for:
 
 - 🏪 **Retail Stores** - Product promotions, digital menus, pricing displays
-- 🍔 **Restaurants** - Menu boards, daily specials, promotional content
+- 🍔 **Restaurants** - Menu boards, daily specials, promotional content (now with dedicated Digital Menu Board template)
 - 🏢 **Corporate Offices** - Lobby displays, meeting room schedules, announcements
 - 🏫 **Educational Institutions** - Event calendars, wayfinding, announcements
 - 🏥 **Healthcare Facilities** - Patient information, wayfinding, health tips
 - 🎪 **Event Venues** - Event schedules, sponsor displays, information boards
 - 🏠 **Smart Homes** - Family calendars, weather displays, photo frames
+- 📺 **Fire TV Displays** - Living room information displays, digital art frames
 
 ---
 
@@ -268,17 +276,17 @@ See [LICENSE](LICENSE) for complete beta license terms.
 
 ## 📊 Project Status
 
-**Current Version**: v1.0.2 (Phase 0)
+**Current Version**: v1.0.5 (Phase 0)
 **Phase**: 0 (Beta Testing)
 **Status**: Active Development
-**Next Milestone**: Phase 1 Open Source Launch (Q4 2025)
+**Next Milestone**: Phase 1 Open Source Launch (Q1 2026)
 
 ### Quick Stats
 
-- **Platforms Supported**: 3 (Windows, Android, Linux)
-- **Active Beta Testers**: TBD
-- **Issues Resolved**: TBD
-- **Features**: 20+ core features
+- **Platforms Supported**: 3 (Windows, Android, Fire TV)
+- **Active Beta Testers**: Growing community
+- **Latest Features**: Fire TV UI improvements, Digital Menu Board template
+- **Features**: 25+ core features
 
 ---
 
