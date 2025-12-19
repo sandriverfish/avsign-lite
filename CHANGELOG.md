@@ -7,16 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-### Planned for Phase 1 (Q1 2025)
-- Open source code release under AGPLv3
-- Developer documentation and contribution guidelines
-- Community contribution process
-- Enhanced architecture documentation
+### Planned for Phase 1 (Q1 2026)
+- avSign.lite Swarm Mode
+- Support Raspberry Pi
+- Support more android devices can be easy purchased. (Already support Firefly) 
+- MCP server for AI agent control, support scheduling, edit playlist.
+- Calendar events display
 
-### Planned for Phase 2 (Q2 2025)
-- AI-powered content generation (Claude Skills)
+### Planned for Phase 2 (Q2 2026)
 - Cloud synchronization and backup
-- MCP server for AI agent control
+- Support avSign.server (for Cloudflaer, QNAP NAS)
 - Advanced scheduling system
 - Multi-device management dashboard
 
@@ -107,6 +107,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.0.2] - 2025-11-25
+
+### Fixed
+- **Android First-Run UX**: Removed runtime external storage permission prompt on Android first run by switching to scoped app storage paths and removing runtime permission requests.
+  - Removed `READ_EXTERNAL_STORAGE`, `WRITE_EXTERNAL_STORAGE`, and `MANAGE_EXTERNAL_STORAGE` from `AndroidManifest.xml`.
+  - Removed runtime permission request code from `MainActivity.kt` and simplified `ExternalStorageManager` to use app-scoped storage.
+  - Removed `permission_handler` dependency from `pubspec.yaml` to avoid unnecessary runtime permission handling logic.
+  - Cleaned `AndroidManifest.xml` to remove `requestLegacyExternalStorage` attribute and other legacy entries.
+
+### Changed
+- Updated packaging for Phase 0 release: Android APK and Windows installer prepared and documented in Phase 0 plan.
+- Documentation updates: `docs/PHASE0_SOFT_LAUNCH_PLAN.md` and `docs/RELEASE_NOTES_1.0.2.md`.
+
+---
+
 ## [1.0.1] - 2025-11-24
 
 ### Added
@@ -129,21 +144,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updated `flutter_launcher_icons` configuration for consistent icon generation
 
 ---
-
-## [1.0.2] - 2025-11-25
-
-### Fixed
-- **Android First-Run UX**: Removed runtime external storage permission prompt on Android first run by switching to scoped app storage paths and removing runtime permission requests.
-  - Removed `READ_EXTERNAL_STORAGE`, `WRITE_EXTERNAL_STORAGE`, and `MANAGE_EXTERNAL_STORAGE` from `AndroidManifest.xml`.
-  - Removed runtime permission request code from `MainActivity.kt` and simplified `ExternalStorageManager` to use app-scoped storage.
-  - Removed `permission_handler` dependency from `pubspec.yaml` to avoid unnecessary runtime permission handling logic.
-  - Cleaned `AndroidManifest.xml` to remove `requestLegacyExternalStorage` attribute and other legacy entries.
-
-### Changed
-- Updated packaging for Phase 0 release: Android APK and Windows installer prepared and documented in Phase 0 plan.
-- Documentation updates: `docs/PHASE0_SOFT_LAUNCH_PLAN.md` and `docs/RELEASE_NOTES_1.0.2.md`.
-
-
 
 ## [1.0.0-beta] - 2025-11-23
 
@@ -283,4 +283,4 @@ Found a bug or have feedback? We'd love to hear from you:
 
 ---
 
-Last updated: 2025-11-23
+Last updated: 2025-12-18
