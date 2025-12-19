@@ -22,6 +22,37 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.0.5] - 2025-12-18
+
+### Added
+- **Digital Menu Board Template**: New built-in template specifically for menu boards
+  - Proper `type: "menu"` zone configuration for MenuBoardWidgetBuilder routing
+  - Full-screen layout optimized for restaurant displays
+  - Available in Admin UI template selection
+
+### Fixed
+- **Menu Zone Display Issue**: Fixed "No media content" error for digital menu boards
+  - Root cause: Zone type mismatch (media vs menu) in template definitions
+  - Menu resources now properly route to MenuBoardWidgetBuilder instead of MediaWidgetBuilder
+  - Digital menu boards now display correctly without errors
+
+### Changed
+- **Fire TV UI Improvements**: Enhanced visibility and usability for TV screens
+  - Increased demo countdown text size from 22px to 28px
+  - Expanded Quick Settings dialog from 600x540 to 800x700 pixels
+  - Enlarged QR code from 120px to 160px for better TV visibility
+  - Increased URL text size from 11px to 18px with improved contrast
+  - Enhanced header text from 28px to 36px
+  - Better line spacing and readability optimized for 10-foot UI experience
+
+### Technical
+- Improved zone type routing logic documentation
+- Enhanced MenuBoardWidgetBuilder integration
+- Optimized text rendering for TV viewing distances
+- Better contrast ratios for Fire TV remote navigation
+
+---
+
 ## [1.0.4] - 2025-12-08
 
 ### Added
