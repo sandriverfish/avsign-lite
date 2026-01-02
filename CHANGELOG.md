@@ -17,6 +17,28 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [2.1.0] - 2026-01-02
+
+### 🚀 Feature: Consultation Mode
+
+This release introduces **Consultation Mode**, a specialized feature for medical offices, beauty clinics, and service providers to interactively showcase "Before & After" comparisons and educational content.
+
+### Added
+- **Consultation Mode**: Interactive split-screen comparison tool
+  - Toggle between "Digital Signage" (looping content) and "Consultation" (interactive) modes
+  - Side-by-side media comparison for case studies
+  - Remote control via tablet/mobile for staff interaction
+- **Zero Audio Bleed**: Instant muting of background lobby music when entering consultation mode
+- **Split-Screen Overlay**: Dynamic UI for comparing two media sources
+- **Global State Management**: Robust synchronization for media playback state
+
+### Fixed
+- **Background Video Audio**: Fixed race condition where background video audio would play during consultation
+- **URL Parameter Handling**: Video detection now correctly processes URLs with query parameters (e.g., tokens)
+- **Filename Handling**: Fixed JavaScript errors when media filenames contain apostrophes or special characters
+
+---
+
 ## [2.0.0] - 2026-01-02
 
 ### 🚀 Major Release: Multi-Screen Grid Mode

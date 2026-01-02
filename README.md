@@ -15,13 +15,13 @@
 
 ### Download Latest Release
 
-**Version: v2.0.0 (Multi-Screen Grid Mode)** | [All Releases](https://github.com/sandriverfish/avsign-lite/releases)
+**Version: v2.1.0 (Consultation Mode)** | [All Releases](https://github.com/sandriverfish/avsign-lite/releases)
 
 | Platform | Download | Size | Requirements |
 |----------|----------|------|--------------|
-| 🪟 **Windows** | [Download ZIP](https://github.com/sandriverfish/avsign-lite/releases/download/v2.0.0/avsign-lite-2.0.0-windows.zip) | ~106 MB | Windows 10+ |
-| 🤖 **Android** | [Download APK](https://github.com/sandriverfish/avsign-lite/releases/download/v2.0.0/avsign-lite-2.0.0-android-arm64.apk) | ~109 MB | Android 9+ |
-| 📺 **Fire TV** | [Download APK](https://github.com/sandriverfish/avsign-lite/releases/download/v2.0.0/avsign-lite-2.0.0-firetv-arm64-v8a.apk) | ~109 MB | Fire TV Stick 4K+ |
+| 🪟 **Windows** | [Download ZIP](https://github.com/sandriverfish/avsign-lite/releases/download/v2.1.0/avsign-lite-2.1.0-windows.zip) | ~110 MB | Windows 10+ |
+| 🤖 **Android** | [Download APK](https://github.com/sandriverfish/avsign-lite/releases/download/v2.1.0/avsign-lite-2.1.0-android.apk) | ~109 MB | Android 9+ |
+| 📺 **Fire TV** | [Download APK](https://github.com/sandriverfish/avsign-lite/releases/download/v2.1.0/avsign-lite-2.1.0-firetv-arm64-v8a.apk) | ~109 MB | Fire TV Stick 4K+ |
 | 🐧 **Linux** | _Coming Soon_ | - | Ubuntu 20.04+ |
 
 ### Installation
@@ -48,12 +48,18 @@ See our [Installation Guide](docs/Installation_Guide.md) for detailed platform-s
 - 🖥️ **Device Management** - Manage multiple display terminals
 - 🎯 **Content Publishing** - Push content to displays instantly
 
-### 🆕 v2.0.0 New Features
+### 🆕 v2.1.0 New Features
 
-- 🎯 **Multi-Screen Grid Mode** - Tile-based panorama walls across 2x2, 1x3, 3x3 or custom configurations
-- 🔒 **Kiosk Mode** - PIN-protected full-screen lockdown for public displays
-- ⏱️ **NTP Time Sync** - Network-synchronized playback across multiple devices
-- 📅 **Calendar Integration** - iCal feed support for meeting room displays
+- 🏥 **Consultation Mode** - Interactive before/after comparisons for medical/service use cases
+- 📱 **Remote Control** - Tablet-based controls for switching content on the main screen
+- 🔇 **Zero Audio Bleed** - Smart audio management between lobby loops and consultation content
+- 🖼️ **Split-Screen** - Side-by-side comparison view
+
+### ✅ v2.0.0 Features
+- 🎯 **Multi-Screen Grid Mode** - Tile-based panorama walls
+- 🔒 **Kiosk Mode** - PIN-protected lockdown
+- ⏱️ **NTP Time Sync** - Network-synchronized playback
+- 📅 **Calendar Integration** - iCal feeds
 
 ### Supported Media Types
 
