@@ -7,18 +7,68 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-### Planned for Phase 1 (Q1 2026)
-- avSign.lite Swarm Mode
-- Support Raspberry Pi
-- Support more android devices can be easy purchased. (Already support Firefly) 
-- MCP server for AI agent control, support scheduling, edit playlist.
-- Calendar events display
-
 ### Planned for Phase 2 (Q2 2026)
 - Cloud synchronization and backup
-- Support avSign.server (for Cloudflaer, QNAP NAS)
+- Support avSign.server (for Cloudflare, QNAP NAS)
 - Advanced scheduling system
 - Multi-device management dashboard
+- Raspberry Pi support
+- MCP server for AI agent control
+
+---
+
+## [2.0.0] - 2026-01-02
+
+### 🚀 Major Release: Multi-Screen Grid Mode
+
+This is a **major version release** introducing multi-screen grid functionality, enabling synchronized panorama walls across multiple displays.
+
+### Added
+
+#### 🎯 Multi-Screen Grid Mode (Flagship Feature)
+- **Physical image cropping** for tile-based grid walls
+- **GPU-free tile rendering** with disk cache (75% VRAM reduction)
+- Support for **2x2, 1x3, 3x3**, and custom grid configurations
+- 7-day tile cache with automatic cleanup (500MB limit)
+- Sub-pixel alignment for seamless tile boundaries
+- Network-synchronized playback across cluster
+- Grid role persistence across restarts
+
+#### 🔒 Kiosk Mode
+- PIN-protected full-screen lockdown
+- Cross-platform support (Windows, Android, Fire TV)
+- Configurable PIN codes
+- Exit protection against accidental closure
+- Persisted kiosk state across app restarts
+
+#### ⏱️ NTP Time Sync
+- Network Time Protocol synchronization for cluster coordination
+- Graceful degradation when offline
+- Sub-second playback accuracy across devices
+
+#### 📅 Calendar Integration
+- iCal feed support for meeting room displays
+- Multiple calendar view templates (day, week, agenda)
+- Meeting room availability indicators
+- Real-time calendar sync with refresh intervals
+- Support for Google Calendar, Outlook, and standard iCal feeds
+
+### Fixed
+- **Swarm Stability:** Authoritative pinned master prevents multi-master conflicts
+- **Grid Role Persistence:** Fixed grid role assignment using correct persistent device IDs
+- **Grid Layout Save:** Fixed 500 error when updating grid layouts via admin UI
+- **Grid Publish Permissions:** Fixed "Only master device can publish" error after layout changes
+- **mDNS Discovery:** Improved peer discovery and IP resolution
+- **Video Playback:** 4K content handling with texture size enforcement
+- **Memory Management:** Physical cropping reduces VRAM usage by 75%
+
+### Changed
+- Admin UI rebuilt with latest dependencies
+- Improved error logging for swarm operations
+- Updated CI/CD pipeline for multi-platform builds
+
+### Breaking Changes
+- None (fully backward compatible with 1.x configurations)
 
 ---
 

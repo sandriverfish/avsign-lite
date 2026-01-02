@@ -15,13 +15,13 @@
 
 ### Download Latest Release
 
-**Version: v1.0.5 (Phase 0)** | [All Releases](https://github.com/sandriverfish/avsign-lite/releases)
+**Version: v2.0.0 (Multi-Screen Grid Mode)** | [All Releases](https://github.com/sandriverfish/avsign-lite/releases)
 
 | Platform | Download | Size | Requirements |
 |----------|----------|------|--------------|
-| 🪟 **Windows** | [Download Installer](https://github.com/sandriverfish/avsign-lite/releases/download/v1.0.5/avsign-lite-1.0.5-windows.exe) | ~101 MB | Windows 10+ |
-| 🤖 **Android** | [Download APK](https://github.com/sandriverfish/avsign-lite/releases/download/v1.0.5/avsign-lite-1.0.5-android.apk) | ~94 MB | Android 9+ |
-| 📺 **Fire TV** | [Download APK](https://github.com/sandriverfish/avsign-lite/releases/download/v1.0.5/avsign-lite-1.0.5-firetv.apk) | ~94 MB | Fire TV Stick 4K+ |
+| 🪟 **Windows** | [Download ZIP](https://github.com/sandriverfish/avsign-lite/releases/download/v2.0.0/avsign-lite-2.0.0-windows.zip) | ~106 MB | Windows 10+ |
+| 🤖 **Android** | [Download APK](https://github.com/sandriverfish/avsign-lite/releases/download/v2.0.0/avsign-lite-2.0.0-android-arm64.apk) | ~109 MB | Android 9+ |
+| 📺 **Fire TV** | [Download APK](https://github.com/sandriverfish/avsign-lite/releases/download/v2.0.0/avsign-lite-2.0.0-firetv-arm64-v8a.apk) | ~109 MB | Fire TV Stick 4K+ |
 | 🐧 **Linux** | _Coming Soon_ | - | Ubuntu 20.04+ |
 
 ### Installation
@@ -47,6 +47,13 @@ See our [Installation Guide](docs/Installation_Guide.md) for detailed platform-s
 - 🔌 **Offline-First Architecture** - Works perfectly without internet connection
 - 🖥️ **Device Management** - Manage multiple display terminals
 - 🎯 **Content Publishing** - Push content to displays instantly
+
+### 🆕 v2.0.0 New Features
+
+- 🎯 **Multi-Screen Grid Mode** - Tile-based panorama walls across 2x2, 1x3, 3x3 or custom configurations
+- 🔒 **Kiosk Mode** - PIN-protected full-screen lockdown for public displays
+- ⏱️ **NTP Time Sync** - Network-synchronized playback across multiple devices
+- 📅 **Calendar Integration** - iCal feed support for meeting room displays
 
 ### Supported Media Types
 
@@ -130,9 +137,9 @@ We're currently in **Phase 0 Beta** and actively seeking feedback from users!
 
 ## 🗺️ Roadmap
 
-### ✅ Phase 0: Beta Testing (Current - Dec 2025)
+### ✅ Phase 0: Beta Testing (Complete - Dec 2025)
 
-**Status**: Public beta with compiled binaries
+**Status**: Completed with v2.0.0 Major Release
 
 - ✅ Core digital signage features
 - ✅ Multi-platform support (Windows, Android, Fire TV)
@@ -141,15 +148,16 @@ We're currently in **Phase 0 Beta** and actively seeking feedback from users!
 - ✅ Fire TV optimized UI
 - ✅ Public beta program
 
-### ⏳ Phase 1: Open Source Launch (Q1 2026)
+### ✅ Phase 1: Multi-Screen Grid Mode (Current - Jan 2026)
 
-**Status**: Planned
+**Status**: Released in v2.0.0
 
-- avSign.lite Swarm Mode
-- Support Raspberry Pi
-- Support more Android devices (already supports Firefly)
-- MCP server for AI agent control, scheduling, playlist editing
-- Calendar events display
+- ✅ Multi-Screen Grid Mode (panorama walls)
+- ✅ Kiosk Mode with PIN protection
+- ✅ NTP Time Sync for cluster coordination
+- ✅ Calendar Integration (iCal feeds)
+- ⏳ Support Raspberry Pi
+- ⏳ MCP server for AI agent control
 
 ### ⏳ Phase 2: Advanced Features (Q2 2026)
 
@@ -276,17 +284,17 @@ See [LICENSE](LICENSE) for complete beta license terms.
 
 ## 📊 Project Status
 
-**Current Version**: v1.0.5 (Phase 0)
-**Phase**: 0 (Beta Testing)
+**Current Version**: v2.0.0 (Multi-Screen Grid Mode)
+**Phase**: 1 (Major Feature Release)
 **Status**: Active Development
-**Next Milestone**: Phase 1 Open Source Launch (Q1 2026)
+**Next Milestone**: Raspberry Pi support, MCP server (Q2 2026)
 
 ### Quick Stats
 
 - **Platforms Supported**: 3 (Windows, Android, Fire TV)
 - **Active Beta Testers**: Growing community
-- **Latest Features**: Fire TV UI improvements, Digital Menu Board template
-- **Features**: 25+ core features
+- **Latest Features**: Multi-Screen Grid Mode, Kiosk Mode, Calendar Integration
+- **Features**: 30+ core features
 
 ---
 
