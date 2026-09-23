@@ -1,331 +1,197 @@
 # avSign.lite
 
-**AI-enhanced digital signage software for offline-first content management**
+**Offline-first digital signage with an embedded CMS — no separate server required.**
 
-> ⚠️ **Phase 0 Beta**: This is a pre-release version with compiled binaries only.
-> Source code will be released as open-source (AGPLv3) in Phase 1 (Q4 2025).
+Transform Windows PCs, Android devices, and Fire TV sticks into professional
+digital signage displays. Content keeps playing from local storage even when
+the network drops.
 
-[![License](https://img.shields.io/badge/License-Beta-blue.svg)](LICENSE)
-[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Android%20%7C%20Linux-lightgrey.svg)]()
-[![Status](https://img.shields.io/badge/Status-Beta-orange.svg)]()
+[![License](https://img.shields.io/badge/License-Commercial-blue.svg)](LICENSE)
+[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Android%20%7C%20Fire%20TV-lightgrey.svg)]()
+[![Version](https://img.shields.io/badge/Version-v2.1.0-green.svg)](https://github.com/sandriverfish/avsign-lite/releases/tag/v2.1.0)
+[![Website](https://img.shields.io/badge/Website-apexvuedigital.com-informational.svg)](https://www.apexvuedigital.com)
 
----
+**Product / company:** [Apex Vue Digital](https://www.apexvuedigital.com) (`apexvuedigital` on GitHub). This public repo distributes release binaries and docs.
 
-## 🚀 Quick Start
-
-### Download Latest Release
-
-**Version: v2.1.0 (Consultation Mode)** | [All Releases](https://github.com/sandriverfish/avsign-lite/releases)
-
-| Platform | Download | Size | Requirements |
-|----------|----------|------|--------------|
-| 🪟 **Windows** | [Download ZIP](https://github.com/sandriverfish/avsign-lite/releases/download/v2.1.0/avsign-lite-2.1.0-windows.zip) | ~110 MB | Windows 10+ |
-| 🤖 **Android** | [Download APK](https://github.com/sandriverfish/avsign-lite/releases/download/v2.1.0/avsign-lite-2.1.0-android.apk) | ~109 MB | Android 9+ |
-| 📺 **Fire TV** | [Download APK](https://github.com/sandriverfish/avsign-lite/releases/download/v2.1.0/avsign-lite-2.1.0-firetv-arm64-v8a.apk) | ~109 MB | Fire TV Stick 4K+ |
-| 🐧 **Linux** | _Coming Soon_ | - | Ubuntu 20.04+ |
-
-### Installation
-
-See our [Installation Guide](docs/Installation_Guide.md) for detailed platform-specific instructions.
-
-**Quick links:**
-- [Windows Installation](docs/Installation_Guide.md#windows)
-- [Android Installation](docs/Installation_Guide.md#android)
-- [Linux Installation](docs/Installation_Guide.md#linux)
+**Product site:** [apexvuedigital.com](https://www.apexvuedigital.com) · **Docs:** [Documentation](https://www.apexvuedigital.com/docs/) · **Downloads:** [Releases](https://github.com/sandriverfish/avsign-lite/releases)
 
 ---
 
-## ✨ Features
+## Pricing
 
-### Core Digital Signage Capabilities
+| Plan | Price | Notes |
+|------|-------|--------|
+| **Free trial** | $0 for 14 days | Full core features to evaluate on your device |
+| **Lifetime license** | **$49.99** one-time, per device | Commercial use, email support, lifetime updates for that license tier |
+| **Server Edition** | Contact sales | Centralized / multi-device management (see website) |
 
-- 🖼️ **Resource Management** - Upload and organize images, videos, and media files
-- 🎨 **Visual Layout Editor** - Drag-and-drop interface for creating custom layouts
-- 📋 **Template Library** - Pre-built templates (full screen, PIP, quad dashboard, video wall, etc.)
-- 🎬 **Playlist System** - Create and schedule content programs with multiple zones
-- 📱 **Multi-Platform Support** - Runs on Windows, Android, and Linux
-- 🔌 **Offline-First Architecture** - Works perfectly without internet connection
-- 🖥️ **Device Management** - Manage multiple display terminals
-- 🎯 **Content Publishing** - Push content to displays instantly
-
-### 🆕 v2.1.0 New Features
-
-- 🏥 **Consultation Mode** - Interactive before/after comparisons for medical/service use cases
-- 📱 **Remote Control** - Tablet-based controls for switching content on the main screen
-- 🔇 **Zero Audio Bleed** - Smart audio management between lobby loops and consultation content
-- 🖼️ **Split-Screen** - Side-by-side comparison view
-
-### ✅ v2.0.0 Features
-- 🎯 **Multi-Screen Grid Mode** - Tile-based panorama walls
-- 🔒 **Kiosk Mode** - PIN-protected lockdown
-- ⏱️ **NTP Time Sync** - Network-synchronized playback
-- 📅 **Calendar Integration** - iCal feeds
-
-### Supported Media Types
-
-- **Images**: JPG, PNG, GIF, BMP, WebP
-- **Videos**: MP4, AVI, MKV, MOV, WebM
-- **Text**: Dynamic text overlays, scrolling text, clocks
-- **Layouts**: Multi-zone layouts with independent content per zone
+Purchase and trial details: [apexvuedigital.com](https://www.apexvuedigital.com)
 
 ---
 
-## 📸 Screenshots
+## Quick start
 
-<table>
-  <tr>
-    <td width="50%">
-      <img src="screenshots/dashboard.png" alt="Main Dashboard" />
-      <p align="center"><em>Main Dashboard - Resource Management</em></p>
-    </td>
-    <td width="50%">
-      <img src="screenshots/layout-editor.png" alt="Layout Editor" />
-      <p align="center"><em>Visual Layout Editor</em></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <img src="screenshots/display-mode.png" alt="Display Mode" />
-      <p align="center"><em>Client Dashboard Display</em></p>
-    </td>
-    <td width="50%">
-      <img src="screenshots/settings.png" alt="Settings" />
-      <p align="center"><em>Settings & Configuration</em></p>
-    </td>
-  </tr>
-</table>
+### Download v2.1.0 (Consultation Mode)
+
+| Platform | Download | Requirements |
+|----------|----------|--------------|
+| **Windows** | [ZIP](https://github.com/sandriverfish/avsign-lite/releases/download/v2.1.0/avsign-lite-2.1.0-windows.zip) | Windows 10+ (64-bit) |
+| **Android** | [APK](https://github.com/sandriverfish/avsign-lite/releases/download/v2.1.0/avsign-lite-2.1.0-android.apk) | Android 9+ |
+| **Fire TV** | [APK](https://github.com/sandriverfish/avsign-lite/releases/download/v2.1.0/avsign-lite-2.1.0-firetv-arm64-v8a.apk) | Fire TV Stick 4K or newer |
+| **Linux** | Coming soon | — |
+
+Installation steps: [Installation Guide](docs/Installation_Guide.md)
 
 ---
 
-## 📖 Documentation
+## Features
 
-**Getting Started:**
-- [Quick Start Guide](docs/Quick_Start.md) - Get up and running in 5 minutes
-- [User Guide](docs/User_Guide.md) - Complete usage documentation
-- [Installation Guide](docs/Installation_Guide.md) - Platform-specific setup instructions
+### Core
 
-**Support & Help:**
-- [Troubleshooting](docs/Troubleshooting.md) - Common issues and solutions
-- [FAQ](docs/FAQ.md) - Frequently asked questions
-- [Release Notes](CHANGELOG.md) - Version history and changes
+- **Resource management** — images, video, and media libraries
+- **Drag-and-drop layout editor** — multi-zone layouts without coding
+- **Templates** — full screen, picture-in-picture, side-by-side, quad, video wall, digital menu board
+- **Playlists & scheduling** — timed programs and playback order
+- **Offline-first** — scheduled content continues from local storage without internet
+- **Embedded CMS** — manage the device from a browser on the local network; no separate server required for lite deployments
 
----
+### Highlights in recent releases
 
-## 🐛 Beta Testing & Feedback
+**v2.1.0 — Consultation Mode**
+- Interactive before/after comparisons (medical, beauty, service use cases)
+- Tablet remote control for the main display
+- Split-screen comparison and smart audio mute (“zero audio bleed”)
 
-We're currently in **Phase 0 Beta** and actively seeking feedback from users!
+**v2.0.0 — Multi-screen & ops**
+- Multi-screen grid / panorama walls
+- Kiosk mode with PIN
+- NTP time sync for coordinated playback
+- Calendar integration (iCal / Google & Outlook style feeds)
 
-### How to Participate
+### Media types
 
-1. **Download** the app for your platform (links above)
-2. **Install** and test the core features
-3. **Report bugs** using our [bug report template](https://github.com/sandriverfish/avsign-lite/issues/new?template=bug_report.yml)
-4. **Request features** via our [feature request form](https://github.com/sandriverfish/avsign-lite/issues/new?template=feature_request.yml)
-
-### Feedback Channels
-
-- 🐛 **Bug Reports**: [GitHub Issues](https://github.com/sandriverfish/avsign-lite/issues)
-- 💡 **Feature Requests**: [GitHub Issues](https://github.com/sandriverfish/avsign-lite/issues)
-- 💬 **Discussions**: [GitHub Discussions](https://github.com/sandriverfish/avsign-lite/discussions)
-- 💬 **Discord**: [@avsign.lite](https://discord.gg/EMh8zanC)
-- 🐦 **Twitter/X**: [@sandriverfish](https://twitter.com/sandriverfish)
-- 📧 **Email**: sandriverfish@gmail.com
-
-### What We're Looking For
-
-- Installation experience feedback
-- Bug reports and crashes
-- Feature requests and ideas
-- Use case suggestions
-- Documentation improvements
+Images (JPG, PNG, GIF, BMP, WebP), video (MP4, AVI, MKV, MOV, WebM), text overlays, clocks, and multi-zone layouts.
 
 ---
 
-## 🗺️ Roadmap
+## Documentation
 
-### ✅ Phase 0: Beta Testing (Complete - Dec 2025)
+- [Quick Start](docs/Quick_Start.md)
+- [User Guide](docs/User_Guide.md)
+- [Installation Guide](docs/Installation_Guide.md)
+- [Troubleshooting](docs/Troubleshooting.md)
+- [FAQ](docs/FAQ.md) *(repo FAQ; site FAQ at [apexvuedigital.com/faq](https://www.apexvuedigital.com/faq/) is authoritative for pricing and support email)*
+- [Changelog](CHANGELOG.md)
 
-**Status**: Completed with v2.0.0 Major Release
-
-- ✅ Core digital signage features
-- ✅ Multi-platform support (Windows, Android, Fire TV)
-- ✅ Resource and layout management
-- ✅ Template library with Digital Menu Board support
-- ✅ Fire TV optimized UI
-- ✅ Public beta program
-
-### ✅ Phase 1: Multi-Screen Grid Mode (Current - Jan 2026)
-
-**Status**: Released in v2.0.0
-
-- ✅ Multi-Screen Grid Mode (panorama walls)
-- ✅ Kiosk Mode with PIN protection
-- ✅ NTP Time Sync for cluster coordination
-- ✅ Calendar Integration (iCal feeds)
-- ⏳ Support Raspberry Pi
-- ⏳ MCP server for AI agent control
-
-### ⏳ Phase 2: Advanced Features (Q2 2026)
-
-**Status**: In development
-
-- Cloud synchronization and backup
-- Support avSign.server (for Cloudflare, QNAP NAS)
-- Advanced scheduling system
-- Multi-device management dashboard
+Website docs hub: [apexvuedigital.com/docs](https://www.apexvuedigital.com/docs/)
 
 ---
 
-## 📋 System Requirements
+## Support & community
+
+| Channel | Use for |
+|---------|---------|
+| **Email** `support@apexvuedigital.com` | License, billing, and customer support (target: reply within 2 business days) |
+| **[GitHub Issues](https://github.com/sandriverfish/avsign-lite/issues)** | Bug reports and feature requests |
+| **[GitHub Discussions](https://github.com/sandriverfish/avsign-lite/discussions)** | Questions, ideas, roadmap talk |
+| **[Discord](https://discord.gg/EMh8zanC)** | Community chat |
+| **X** [@sandriverfish](https://twitter.com/sandriverfish) | Announcements |
+
+**Security:** email `support@apexvuedigital.com` — do not file public issues for vulnerabilities.
+
+---
+
+## Roadmap (honest status)
+
+| Area | Status |
+|------|--------|
+| Windows / Android / Fire TV binaries | Shipped (v2.1.0) |
+| Consultation Mode, remote control, split-screen | Shipped (v2.1.0) |
+| Multi-screen grid, kiosk, NTP, calendar | Shipped (v2.0.0) |
+| Raspberry Pi / Linux desktop builds | Planned — not shipped yet |
+| MCP / AI agent control | In progress / rolling out — see site and release notes |
+| Cloud sync & Server Edition | Planned / contact sales |
+| Open-source source release | **Not currently available** — no committed public date |
+
+Older README text that promised AGPLv3 in 2025 is outdated and removed. Licensing today is the commercial EULA in [LICENSE](LICENSE).
+
+---
+
+## System requirements
 
 ### Windows
-
-- **OS**: Windows 10 or later (64-bit)
-- **RAM**: 4 GB minimum, 8 GB recommended
-- **Disk Space**: 500 MB
-- **Display**: 1024x768 or higher resolution
-- **Graphics**: DirectX 11 compatible graphics card
+Windows 10+ 64-bit · 4 GB RAM (8 GB recommended) · ~500 MB disk · DirectX 11 GPU
 
 ### Android
-
-- **OS**: Android 9.0 (Pie) or later (recommended)
-- **RAM**: 2 GB minimum, 4 GB recommended
-- **Disk Space**: 200 MB
-- **Display**: Tablet or phone with 720p+ resolution
-- **Permissions**: No runtime external storage permission required (uses scoped app storage by default)
+Android 9.0+ · 2 GB RAM (4 GB recommended) · ~200 MB disk
 
 ### Fire TV
-
-- **OS**: Fire OS 7.0+ (Fire TV Stick 4K or newer recommended)
-- **RAM**: 2 GB minimum
-- **Disk Space**: 200 MB
-- **Display**: 1080p or 4K TV
-- **Features**: D-pad navigation, Amazon IAP support, TV-optimized UI
+Fire OS 7+ · Fire TV Stick 4K or newer recommended · D-pad / TV-oriented UI
 
 ### Linux
-
-- **OS**: Ubuntu 20.04 or later (or equivalent distribution)
-- **RAM**: 4 GB minimum, 8 GB recommended
-- **Disk Space**: 500 MB
-- **Display**: 1024x768 or higher resolution
-- **Dependencies**: GTK 3.0+, GLIBC 2.31+
+Not shipped yet. Requirements will be published with the first Linux build.
 
 ---
 
-## 🎯 Use Cases
+## Use cases
 
-avSign.lite is perfect for:
-
-- 🏪 **Retail Stores** - Product promotions, digital menus, pricing displays
-- 🍔 **Restaurants** - Menu boards, daily specials, promotional content (now with dedicated Digital Menu Board template)
-- 🏢 **Corporate Offices** - Lobby displays, meeting room schedules, announcements
-- 🏫 **Educational Institutions** - Event calendars, wayfinding, announcements
-- 🏥 **Healthcare Facilities** - Patient information, wayfinding, health tips
-- 🎪 **Event Venues** - Event schedules, sponsor displays, information boards
-- 🏠 **Smart Homes** - Family calendars, weather displays, photo frames
-- 📺 **Fire TV Displays** - Living room information displays, digital art frames
+Retail and menu boards, lobbies and meeting rooms, education and healthcare wayfinding, events, Fire TV living-room displays, and consultation / before-after presentations.
 
 ---
 
-## 💬 Community
+## License
 
-Join our growing community of digital signage users!
+avSign.lite binaries are **commercial software**.
 
-- **GitHub Discussions**: [Ask questions, share ideas](https://github.com/sandriverfish/avsign-lite/discussions)
-- **Discord**: [Join our server](https://discord.gg/EMh8zanC)
-- **Twitter/X**: [@sandriverfish](https://twitter.com/sandriverfish)
-- **Email**: sandriverfish@gmail.com
-
----
-
-## 📄 License
-
-**Phase 0 Beta License**: The compiled binaries are provided for testing and evaluation purposes only. Commercial redistribution is not permitted during the beta phase.
-
-**Phase 1 License (Coming Soon)**: The source code will be released under the GNU Affero General Public License v3.0 (AGPLv3), ensuring the software remains free and open-source.
-
-See [LICENSE](LICENSE) for complete beta license terms.
+- 14-day free trial for evaluation
+- Paid **lifetime per-device** license for continued and commercial use
+- Full terms: [LICENSE](LICENSE)
+- This repository currently distributes **binaries and documentation**, not application source code
 
 ---
 
-## 🙏 Acknowledgments
+## Contributing
 
-- **Based on**: [EasyDisplayClient](https://github.com/EasyDisplayClient) v1.0.2+6
-- **Built with**: [Flutter](https://flutter.dev/) - Cross-platform UI framework
-- **Media Playback**: [media_kit](https://github.com/media-kit/media-kit)
-- **Database**: [Drift](https://drift.simonbinder.eu/) - Type-safe SQLite for Dart
+Source code is not open for pull requests at this time.
 
----
+You can still help by:
 
-## 🤝 Contributing
-
-**Phase 0 Note**: We're not accepting code contributions during the beta phase since source code isn't publicly available yet.
-
-**You can help by**:
-- Testing the software and reporting bugs
-- Suggesting features and improvements
-- Improving documentation (typos, clarity)
-- Sharing your use cases and feedback
-
-**Phase 1 Note**: Once we open-source the code, we'll provide full contribution guidelines in `CONTRIBUTING.md`.
+- Testing builds and filing [bug reports](https://github.com/sandriverfish/avsign-lite/issues/new?template=bug_report.yml)
+- Submitting [feature requests](https://github.com/sandriverfish/avsign-lite/issues/new?template=feature_request.yml)
+- Improving docs (typos, clarity) via issues or discussions
+- Sharing real-world use cases
 
 ---
 
-## 📞 Contact & Support
+## Acknowledgments
 
-### Beta Support
-
-- **Email**: sandriverfish@gmail.com
-- **Response Time**: Within 48 hours (weekdays)
-- **GitHub Issues**: [Report bugs or request features](https://github.com/sandriverfish/avsign-lite/issues)
-
-### General Inquiries
-
-- **Website**: *(coming soon)*
-- **Email**: sandriverfish@gmail.com
-- **Discord**: [@avsign.lite](https://discord.gg/EMh8zanC)
-- **Twitter/X**: [@sandriverfish](https://twitter.com/sandriverfish)
+- Inspired by / based on concepts from [EasyDisplayClient](https://github.com/EasyDisplayClient)
+- Built with [Flutter](https://flutter.dev/), [media_kit](https://github.com/media-kit/media-kit), and [Drift](https://drift.simonbinder.eu/)
 
 ---
 
-## 📊 Project Status
+## Project status
 
-**Current Version**: v2.0.0 (Multi-Screen Grid Mode)
-**Phase**: 1 (Major Feature Release)
-**Status**: Active Development
-**Next Milestone**: Raspberry Pi support, MCP server (Q2 2026)
-
-### Quick Stats
-
-- **Platforms Supported**: 3 (Windows, Android, Fire TV)
-- **Active Beta Testers**: Growing community
-- **Latest Features**: Multi-Screen Grid Mode, Kiosk Mode, Calendar Integration
-- **Features**: 30+ core features
+| | |
+|--|--|
+| **Current version** | v2.1.0 (Consultation Mode) |
+| **Platforms** | Windows, Android, Fire TV |
+| **Status** | Actively maintained product |
+| **Next focus** | Linux/Pi builds, MCP polish, support & community ops |
 
 ---
 
-## ⭐ Support the Project
+## Support the project
 
-If you find avSign.lite useful:
-
-- ⭐ **Star this repository** to show your support
-- 🐛 **Report bugs** to help us improve
-- 💡 **Share feature ideas** to shape the roadmap
-- 📢 **Spread the word** to others who might benefit
-- 📝 **Write about your experience** (blog posts, reviews)
-
----
-
-## 🔐 Security
-
-If you discover a security vulnerability, please email sandriverfish@gmail.com instead of using the public issue tracker. We'll respond within 48 hours.
+- Star this repository
+- Report bugs and request features
+- Tell others who need offline-capable signage
+- Buy a license if the trial fits your deployment
 
 ---
 
 <div align="center">
 
-**Made with ❤️ for the digital signage community**
-
-[Download](https://github.com/sandriverfish/avsign-lite/releases) • [Documentation](docs/) • [Report Bug](https://github.com/sandriverfish/avsign-lite/issues) • [Request Feature](https://github.com/sandriverfish/avsign-lite/issues)
+[Website](https://www.apexvuedigital.com) · [Download](https://github.com/sandriverfish/avsign-lite/releases) · [Docs](https://www.apexvuedigital.com/docs/) · [Issues](https://github.com/sandriverfish/avsign-lite/issues)
 
 </div>
