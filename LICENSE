@@ -1,130 +1,178 @@
-avSign.lite Beta Test License
+avSign.lite End-User License Agreement (EULA)
 
-Copyright (c) 2025 avSign.lite Team
-https://github.com/sandriverfish/avsign-lite
+Copyright (c) 2025–2026 Apex Vue Digital / sandriverfish
+Website: https://www.apexvuedigital.com
+Repository: https://github.com/sandriverfish/avsign-lite
 
 ================================================================================
-BETA TESTING LICENSE - PHASE 0
+IMPORTANT — READ CAREFULLY
 ================================================================================
 
-This software is currently in beta testing phase (Phase 0). By downloading,
-installing, or using the compiled binaries of avSign.lite, you agree to the
-following terms:
+This End-User License Agreement ("Agreement") is a legal agreement between you
+("you" or "Licensee") and Apex Vue Digital / sandriverfish ("Licensor") for the
+avSign.lite software, including compiled binaries, documentation, and related
+materials (the "Software").
 
-1. GRANT OF LICENSE
+By downloading, installing, activating, or using the Software, you agree to
+these terms. If you do not agree, do not install or use the Software.
 
-   You are granted a non-exclusive, non-transferable, revocable license to:
+This Agreement replaces the prior "Beta Test License" / Phase 0 terms.
 
-   a) Download and install the binary distributions of avSign.lite
-   b) Use the software for personal or internal business evaluation purposes
-   c) Test the software and provide feedback to the development team
-   d) Evaluate the software for future production use
+================================================================================
+1. LICENSE MODELS
+================================================================================
 
-2. RESTRICTIONS
+1.1 Trial License
+    You may download and use the Software for evaluation for fourteen (14) days
+    from first install ("Trial Period"), with features as described on the
+    product website. During the Trial Period, use is permitted for evaluation
+    and testing, including internal business evaluation.
 
-   You may NOT:
+1.2 Lifetime Device License
+    After the Trial Period, continued use requires a valid commercial license
+    key purchased from Licensor (or an authorized channel) for each device on
+    which the Software is installed and activated. Current pricing and included
+    features are published at https://www.apexvuedigital.com (for example, a
+    one-time per-device lifetime license). A purchased license grants you a
+    non-exclusive, non-transferable (except as allowed in Section 3), perpetual
+    right to use the Software on the licensed device(s), including commercial
+    and production use, subject to this Agreement.
 
-   a) Redistribute the binaries to any third party
-   b) Use the software for commercial purposes or revenue generation
-   c) Reverse engineer, decompile, or disassemble the binaries
-   d) Remove, alter, or obscure any proprietary notices or labels
-   e) Use the software in production environments without written approval
-   f) Create derivative works based on the software
-   g) Rent, lease, or lend the software to third parties
+1.3 Server / Enterprise Editions
+    Separately licensed Server or enterprise offerings, if offered, are governed
+    by their own order terms. Where those terms conflict with this Agreement for
+    that offering, the order terms control for that offering only.
 
-3. BETA SOFTWARE DISCLAIMER
+================================================================================
+2. GRANT OF RIGHTS
+================================================================================
 
-   THIS SOFTWARE IS PROVIDED FOR TESTING AND EVALUATION PURPOSES ONLY.
+Subject to this Agreement and a valid trial or paid license, Licensor grants you
+a limited license to:
 
-   a) The software is in beta stage and may contain bugs and errors
-   b) Features may change or be removed without notice
-   c) Data loss may occur - use appropriate backups
-   d) The software may not be suitable for production use
-   e) No service level agreements or uptime guarantees are provided
+  a) Install and run the Software on licensed devices
+  b) Use the embedded management interface and features included with your plan
+  c) Create and display your own content with the Software
+  d) Receive updates Licensor makes available for your license tier
 
-4. NO WARRANTY
+================================================================================
+3. RESTRICTIONS
+================================================================================
 
-   THIS SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER
-   EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES
-   OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT.
+You may NOT:
 
-   THE AUTHORS AND COPYRIGHT HOLDERS SHALL NOT BE LIABLE FOR ANY CLAIM,
-   DAMAGES, OR OTHER LIABILITY ARISING FROM THE USE OF THIS SOFTWARE.
+  a) Redistribute, sublicense, rent, lease, or lend the Software or license keys
+     except as expressly allowed in writing by Licensor
+  b) Share one device license across multiple simultaneous devices beyond what
+     your purchase expressly allows
+  c) Reverse engineer, decompile, or disassemble the Software except to the
+     extent applicable law expressly permits despite this limitation
+  d) Remove or obscure proprietary notices, license checks, or branding
+  e) Use the Software to develop a competing digital signage product by
+     copying its non-public design or code
+  f) Circumvent license activation, trial limits, or payment controls
 
-5. LIMITATION OF LIABILITY
+Transfer: You may transfer a lifetime device license to a replacement device
+you own if you deactivate or retire the prior device, subject to Licensor’s
+reasonable transfer process.
 
-   IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
-   DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
-   DAMAGES (INCLUDING BUT NOT LIMITED TO: PROCUREMENT OF SUBSTITUTE GOODS
-   OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
-   HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
-   STRICT LIABILITY, OR TORT ARISING IN ANY WAY OUT OF THE USE OF THIS
-   SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+================================================================================
+4. OWNERSHIP; SOURCE CODE
+================================================================================
 
-6. FEEDBACK AND IMPROVEMENTS
+The Software is licensed, not sold. Licensor and its licensors retain all right,
+title, and interest in the Software. Source code is not licensed under this
+Agreement and is not currently published as open source. Any future open-source
+release would be announced separately and would not retroactively change rights
+in binaries already distributed under this Agreement unless Licensor expressly
+says so in writing.
 
-   Any feedback, suggestions, or bug reports you provide may be used by
-   the development team to improve the software without compensation or
-   attribution requirements.
+Third-party components bundled with the Software remain subject to their own
+licenses; notices are provided where required.
 
-7. PRIVACY AND DATA COLLECTION
+================================================================================
+5. CONTENT AND YOUR DATA
+================================================================================
 
-   a) The software operates offline-first and does not transmit personal data
-   b) No telemetry or analytics data is collected by default
-   c) Any crash reports or diagnostics are only sent with your explicit consent
-   d) Your media files and content remain on your local device
+You retain ownership of media and content you upload or display ("Your Content").
+You are responsible for having rights to Your Content and for complying with
+applicable laws. The Software is designed to operate offline-first; Your Content
+remains on your devices unless you use an optional cloud or sync feature you
+enable.
 
-8. TERMINATION
+================================================================================
+6. SUPPORT
+================================================================================
 
-   a) This license is effective until terminated
-   b) This license will terminate automatically when Phase 1 launches
-   c) The authors may terminate this license at any time with 7 days notice
-   d) Upon termination, you must cease using the software and delete all copies
+Email support for licensed customers is available at support@apexvuedigital.com.
+Response targets (for example, acknowledgment within two business days) are
+service goals, not guarantees, unless a separate support contract says otherwise.
 
-9. TRANSITION TO OPEN SOURCE (PHASE 1)
+Community channels (GitHub Issues, Discussions, Discord) may be offered for
+product feedback and peer help; they do not replace paid-license support
+obligations Licensor chooses to provide.
 
-   Upon Phase 1 launch (estimated Q1 2025):
+================================================================================
+7. DISCLAIMER OF WARRANTIES
+================================================================================
 
-   a) The source code will be released under AGPLv3 license
-   b) This beta license will be superseded by AGPLv3
-   c) All binary users will be notified of the license change
-   d) You may continue using the software under AGPLv3 terms
+EXCEPT AS REQUIRED BY LAW OR EXPRESSLY STATED IN WRITING BY LICENSOR, THE
+SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND
+NON-INFRINGEMENT. YOU USE THE SOFTWARE AT YOUR OWN RISK. BACK UP YOUR CONTENT.
 
+================================================================================
+8. LIMITATION OF LIABILITY
+================================================================================
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, LICENSOR SHALL NOT BE LIABLE FOR ANY
+INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR ANY LOSS
+OF PROFITS, DATA, OR BUSINESS, ARISING FROM THE SOFTWARE OR THIS AGREEMENT,
+EVEN IF ADVISED OF THE POSSIBILITY. LICENSOR’S TOTAL LIABILITY FOR ALL CLAIMS
+RELATING TO THE SOFTWARE SHALL NOT EXCEED THE AMOUNTS YOU PAID TO LICENSOR FOR
+THE LICENSE GIVING RISE TO THE CLAIM IN THE TWELVE (12) MONTHS BEFORE THE CLAIM
+(OR, FOR A TRIAL WITH NO PAYMENT, FIFTY U.S. DOLLARS).
+
+SOME JURISDICTIONS DO NOT ALLOW CERTAIN LIMITATIONS; IN THOSE CASES, LIABILITY
+IS LIMITED TO THE MAXIMUM EXTENT PERMITTED BY LAW.
+
+================================================================================
+9. TERMINATION
+================================================================================
+
+This Agreement continues until terminated. Your rights end automatically if you
+materially breach these terms and fail to cure within thirty (30) days after
+notice (or immediately for license circumvention). You may terminate by ceasing
+use and deleting copies. Sections that by nature should survive (ownership,
+disclaimer, liability, governing law) survive termination. On termination you
+must stop using the Software and destroy installed copies, except where law
+requires retention.
+
+================================================================================
 10. GOVERNING LAW
-
-    This license shall be governed by and construed in accordance with the
-    laws of the jurisdiction where the copyright holder resides, without
-    regard to its conflict of law provisions.
-
-11. ENTIRE AGREEMENT
-
-    This license constitutes the entire agreement between you and the
-    authors regarding the use of this software during the beta phase.
-
 ================================================================================
 
-FUTURE LICENSING:
-
-When Phase 1 launches, the source code will be released under:
-
-GNU AFFERO GENERAL PUBLIC LICENSE Version 3 (AGPLv3)
-https://www.gnu.org/licenses/agpl-3.0.html
-
-This ensures the software remains free and open-source, with source code
-availability requirements for network use.
+This Agreement is governed by the laws of the jurisdiction where the copyright
+holder resides, without regard to conflict-of-law rules, unless mandatory local
+consumer law provides otherwise.
 
 ================================================================================
-
-CONTACT:
-
-For questions about this license:
-- Email: sandriverfish@gmail.com
-- GitHub: https://github.com/sandriverfish/avsign-lite/issues
-
-For security issues:
-- Email: sandriverfish@gmail.com (do not use public issue tracker)
-
+11. ENTIRE AGREEMENT; CHANGES
 ================================================================================
 
-Last Updated: 2025-11-23
-License Version: 1.0 (Phase 0 Beta)
+This Agreement is the entire agreement for the Software binaries distributed
+under it and supersedes prior beta license texts for those binaries. Licensor
+may update these terms for future versions; continued use of new versions after
+notice constitutes acceptance of the updated terms for those versions.
+
+================================================================================
+CONTACT
+================================================================================
+
+License and billing: support@apexvuedigital.com
+Security reports (do not use the public issue tracker): support@apexvuedigital.com
+Product site: https://www.apexvuedigital.com
+GitHub: https://github.com/sandriverfish/avsign-lite
+
+Last Updated: 2026-09-22
+License Version: 2.0 (Commercial EULA)
